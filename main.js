@@ -15,9 +15,9 @@ imprima o valor no campo Digite seu telefone.*/
         let valorBotao = botao.value;
 
         botao.onclick = function () {
-            imprimeNumero(valorBotao);
+            imprimeNumero(valorBotao)
         }
-
+        
         botao.onkeydown = function (evento){
             console.log(evento);
             let key = evento.code;
@@ -32,13 +32,8 @@ imprima o valor no campo Digite seu telefone.*/
             if(key === 'Enter' || key === 'Space'){
                 botao.classList.remove('ativa');
             }
-            
-        }      
-
-         
+        }
 
     } 
-
-    
     
 
